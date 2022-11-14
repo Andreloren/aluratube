@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
-import { ColorModeContext } from "../ColorMode";
-import { StyledSwitch } from "./styledSwitch";
+import { ColorModeContext } from "./ColorMode";
+import { StyledSwitch } from "./StyledSwitch";
 
 export default function DarkModeSwitch() {
   const contexto = useContext(ColorModeContext);

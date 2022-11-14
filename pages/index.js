@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Header } from "../src/components/header/Cabecalho";
 import Menu from "../src/components/Menu";
-import { videoService } from "../src/components/services/videoService";
+import { videoService } from "../src/services/videoService";
 import { Timeline } from "../src/components/Timeline";
 
 function HomePage() {
