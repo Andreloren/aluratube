@@ -1,6 +1,6 @@
 import config from "../../../config.json";
-import { StyledHeader } from "./StyledHeader";
-import { StyledBanner } from "../banner/StyledBanner";
+import { StyledHeader } from "./styles";
+import { StyledBanner } from "../banner/styles";
 export function Header() {
   return (
     <StyledHeader>
