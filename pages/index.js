@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Header } from "../src/components/header/Header";
-import Menu from "../src/components/menu/index";
+import Menu from "../src/components/Menu";
 import { videoService } from "../src/components/services/videoService";
 import { Timeline } from "../src/components/timeline/Timeline";
 

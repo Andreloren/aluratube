@@ -1,10 +1,10 @@
 import React, { useContext } from "react";
 import { ThemeProvider } from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
-import RegisterVideo from "../src/components/menu/components/registerVideo";
+import RegisterVideo from "../src/components/Menu/components/RegisterVideo/index";
 import ColorModeProvider, {
   ColorModeContext,
-} from "../src/components/menu/components/ColorMode";
+} from "../src/components/Menu/components/ColorMode";
 
 const theme = {
   light: {
