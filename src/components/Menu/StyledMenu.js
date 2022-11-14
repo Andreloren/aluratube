@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Search from "./components/Search/Search";
+import Search from "./components/search/Search";
 
 export const StyledMenu = styled.header`
   display: flex;

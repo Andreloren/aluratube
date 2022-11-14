@@ -1,5 +1,5 @@
-import Search from "./components/Search/Search";
-import DarkModeSwitch from "./components/Switch/Switch";
+import Search from "./components/search/Search";
+import DarkModeSwitch from "./components/switch/Switch";
 import { StyledMenu, Logo } from "./StyledMenu";
 
 export default function Menu({ valorDoFiltro, setValorDoFiltro }) {

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
-import { Header } from "../src/components/Header/Header";
-import Menu from "../src/components/Menu/Menu";
-import { videoService } from "../src/components/Services/VideoService";
-import { Timeline } from "../src/components/Timeline/Timeline";
+import { Header } from "../src/components/header/Header";
+import Menu from "../src/components/menu/Menu";
+import { videoService } from "../src/components/services/VideoService";
+import { Timeline } from "../src/components/timeline/Timeline";
 
 function HomePage() {
   const service = videoService();
