@@ -1,4 +1,4 @@
-import Search from "./components/search/Search";
+import Search from "./components/Search";
 import DarkModeSwitch from "./components/switch/Switch";
 import { StyledMenu, Logo } from "./styles";
 

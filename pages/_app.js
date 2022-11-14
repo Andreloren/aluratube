@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import { ThemeProvider } from "styled-components";
 import { CSSReset } from "../src/components/CSSReset";
-import RegisterVideo from "../src/components/Menu/components/RegisterVideo/index";
+import RegisterVideo from "../src/components/RegisterVideo";
 import ColorModeProvider, {
   ColorModeContext,
 } from "../src/components/Menu/components/ColorMode";
